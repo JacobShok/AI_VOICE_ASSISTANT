@@ -1,0 +1,16 @@
+{
+  "name": "esp32-realtime-udp-bridge",
+  "version": "1.0.0",
+  "description": "UDP to OpenAI Realtime API bridge for ESP32-S3 voice assistant",
+  "main": "realtime_udp_bridge.js",
+  "scripts": {
+    "start": "node realtime_udp_bridge.js",
+    "echo": "node udp_echo_server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

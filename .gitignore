@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+nodejs_bridge/node_modules/
+
+# Build artifacts
+build/
+*.o
+*.a
+
+# IDE
+.vscode/
+.clangd
+
+# ESP-IDF
+dependencies.lock
+managed_components/
+sdkconfig.old
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
